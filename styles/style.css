@@ -575,3 +575,15 @@ h4 a, div#aside p span a{
 	padding:20px 3px 0;
 	text-align:right;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
